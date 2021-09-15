@@ -1,0 +1,29 @@
+.home-fullscreen-clip { 
+    height: 100vh; 
+    width: 100vw; 
+    object-fit: cover; 
+    object-position: center;
+    position: absolute;
+    z-index:-1 
+}
+.navbar-link-active {
+    color:#ea131b;
+}
+
+.page-title{
+    display:block;
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    line-height: 50px;
+    letter-spacing: 4px;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.page-subtitle{
+    font-family: 'Marvel', cursive;
+    font-size: 25px;
+    margin: 0;
+    color:#A9C53D;
+}

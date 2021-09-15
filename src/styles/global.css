@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-    background-color: rgb(0, 0, 0);
-}
+
+@layer base {
+    body {
+        background-color: black;
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+  }
+
+
+
+
+
